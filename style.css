@@ -92,6 +92,9 @@
     transform: scale(1.1);
     cursor: pointer;
 }
+.intro-btn:active{
+    opacity: 1;
+}
 .title{
     position: relative;
     text-align: center;
@@ -158,3 +161,7 @@
 #back{
     border-radius: 50%;
 }
+.brightup{
+    filter: brightness(1.5);
+}
+
