@@ -145,6 +145,7 @@
     width: 90%;
     justify-content: space-between;
     align-items: center;
+    border-radius: 50%;
 }
 .img-btn button {
   background: none;
@@ -165,5 +166,9 @@
 .brightup{
     filter: brightness(1.5);
 }
-
-
+.play-btn{
+    transition:  transform 0.3s ease;
+}
+.play-btn:hover{
+    transform: scale(1.1);
+}
